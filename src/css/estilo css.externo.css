@@ -1,0 +1,128 @@
+/* RESETE BÁSICO */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f56607;
+    color: #f7f6f6;
+ }
+ header{
+    background-color: #312b2b;
+    color: #ffffff;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-between;
+    
+ }
+ header h1{
+    Font-size: 60px;
+ }
+ header nav ul{
+    list-style: none;
+    display: flex;
+  }
+header nav ul li{
+    margin-left: 20px;
+ }
+ header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    transition:color 0.3s;
+ }
+ header nav a:hover{
+    color: #f56607;
+    text-decoration: underline;
+ }
+ .rodape{
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    width: 100%; 
+    background-color: #312b2b; 
+    color: white; 
+    padding: 10px 0; 
+    text-align: center; 
+    font-size: 14px;
+    z-index: 100; 
+}
+ .imagem-rentabilidade img{
+   max-width: 100%; 
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    width: 80px;
+    height: 50px;
+    display: block;
+ }
+ .rentabilidade {
+    /* Define uma largura máxima para o artigo inteiro */
+    max-width: 900px; 
+    /* ou um valor que você prefira */
+    margin: 0 auto; /* Opcional: centraliza o conteúdo */
+}
+.imagem-rentabilidade img {
+   
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+     box-shadow: 
+        0px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+.rentabilidade figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #faf4f4;
+}
+.rentabilidade .Informaçõe-renda {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f0eaea;
+}
+.rentabilidade .Informaçõe-renda p {
+    margin-bottom: 10px;
+}
+.rentabilidade .Informaçõe-renda ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+/* Estilos para o contêiner (figure) da nova imagem */
+.sombra-imagem {
+    /* **CRUCIAL:** Largura em porcentagem para que o bloco se ajuste */
+    width: 60%; 
+    /* Garante que o contêiner se centralize e tenha margem */
+    margin: 20px auto; 
+    /* Adiciona um limite, como o contêiner da primeira imagem */
+    max-width: 600px; /* Use um valor fixo (em px) para limitar o tamanho máximo */
+}
+
+/* O estilo da imagem (img) dentro dela já está OK para responsividade, pois tem width: 100% */
+.sombra-imagem img {
+    width: 100%; /* Preenche 100% do contêiner (.sombra-imagem) */
+    height: auto;
+    display: block;
+    /* ... (restante do código: box-shadow) ... */
+}
+
+/* Estilos para a imagem em si */
+.sombra-imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    /* 🎨 EFEITO DE SOMBREADO ESCURO: box-shadow */
+    box-shadow: 
+        /* Parâmetros: deslocamento X, deslocamento Y, raio do borrão, raio de expansão, cor */
+        0px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra preta, suave e bem visível */
+    
+    /* Opcional: Adicionar uma borda arredondada para um visual mais suave */
+    border-radius: 5px;
+}
