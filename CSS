@@ -1,0 +1,113 @@
+/* RESETE BÁSICO */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f56607;
+    color: #f7f6f6;
+ }
+ header{
+    background-color: #312b2b;
+    color: #ffffff;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-between;
+    
+ }
+ header h1{
+    Font-size: 60px;
+ }
+ header nav ul{
+    list-style: none;
+    display: flex;
+  }
+header nav ul li{
+    margin-left: 20px;
+ }
+ header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    transition:color 0.3s;
+ }
+ header nav a:hover{
+    color: #f56607;
+    text-decoration: underline;
+ }
+ .rodape{
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    width: 100%; 
+    background-color: #312b2b; 
+    color: white; 
+    padding: 10px 0; 
+    text-align: center; 
+    font-size: 14px;
+    z-index: 100; 
+}
+ .imagem-rentabilidade img{
+   max-width: 100%; 
+    height: auto; 
+    display: block;
+    width: 80px;
+    height: 50px;
+    display: block;
+ }
+ .rentabilidade {
+    max-width: 900px; 
+    margin: 0 auto; 
+  }   
+.imagem-rentabilidade img {
+   
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+     box-shadow: 
+        0px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+.rentabilidade figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #faf4f4;
+}
+.rentabilidade .Informaçõe-renda {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f0eaea;
+}
+.rentabilidade .Informaçõe-renda p {
+    margin-bottom: 10px;
+}
+.rentabilidade .Informaçõe-renda ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.sombra-imagem {
+    width: 60%; 
+    margin: 20px auto; 
+    max-width: 600px;
+}
+.sombra-imagem img {
+    width: 100%; 
+    height: auto;
+    display: block;
+
+}
+.sombra-imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 
+        0px 10px 20px rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+}
